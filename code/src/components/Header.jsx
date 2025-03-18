@@ -5,8 +5,8 @@ import Typography from '@mui/material/Typography';
 
 export default function Header() {
     return (
-    <AppBar>
-        <Toolbar>
+    <AppBar position="static">
+        <Toolbar >
             <Typography variant="h6" component="div">
                 Grade Insight
             </Typography>
