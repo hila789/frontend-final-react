@@ -3,7 +3,7 @@ import React from 'react'
 export default function MSGManage() {
   return (
     <div>
-      ניהול 
+    מאי המלכה  
     </div>
   )
 }
