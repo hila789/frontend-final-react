@@ -8,6 +8,7 @@ export default function App({name, newName}) {
       <Greeting name = "david"/>
       <Counter />
       <newName  newName = "amir"/>
+      <Routes></Routes>
     </div>
   )
 }
