@@ -12,10 +12,7 @@ export default function App() {
     <div>
 
       <Header />
-      <Counter/>
-      <Greeting/>
       <Routes>
-
         <Route path="/TaskForm" element={<TaskForm/>} />
       </Routes>
     </div>
