@@ -10,6 +10,7 @@ export default function App({name, newName}) {
       <Counter />
       <newName  newName = "amir"/>
       <Header/>
+      <Routes></Routes>
     </div>
   )
 }
