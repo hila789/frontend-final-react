@@ -6,11 +6,8 @@ import Header from './components/Header'
 export default function App({name, newName}) {
   return (
     <div>
-      <Greeting name = "david"/>
-      <Counter />
-      <newName  newName = "amir"/>
+
       <Header/>
-      <Routes></Routes>
     </div>
   )
 }
