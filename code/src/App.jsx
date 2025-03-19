@@ -7,6 +7,8 @@ import InfoPage from './components/InfoPage'
 import MSGManage from './components/MSGManage'
 import StudentsManage from './components/StudentsManage'
 import CoursesManage from './components/CoursesManage'
+import StudentsForm from './components/StudentsForm'
+
 export default function App() {
   return (
     <div>
@@ -19,6 +21,8 @@ export default function App() {
         <Route path='/' element={<HomePage />} />
         <Route path="/help" element={<Help />} />
         <Route path="/info" element={<InfoPage />} />
+        <Route path="/StudentsForm" element={<StudentsForm />} />
+
       </Routes>
     </div>
   )
